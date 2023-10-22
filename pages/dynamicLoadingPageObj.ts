@@ -1,4 +1,4 @@
-import { waitForDisappeared, waitForDisplayed } from '../utils/helperMethods';
+import { waitForDisplayed } from '../utils/helperMethods';
 
 const dynamicLoadingLink = '//a[text()="Dynamic Loading"]';
 const exampleLink = '//a[contains(text(),"Element rendered after the fact")]';
@@ -21,7 +21,6 @@ export class DynamicLoadingPageObj {
         await exampleLinkSelector.click();
         const startButton = await $(startButtonXPath);
         await waitForDisplayed(startButton)
-        //await $('#start').setValue(_sellerBusinessTitle);       
     }
 
     async clickStart() { 
