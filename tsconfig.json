@@ -12,6 +12,6 @@
       "esModuleInterop": true,
       "moduleResolution": "node",
       "resolveJsonModule": true,
-      "types": ["node", "webdriverio/async", "@wdio/cucumber-framework"]
+      "types": ["node", "webdriverio/async", "@wdio/cucumber-framework","jest"]
   }
 }

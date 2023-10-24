@@ -5,22 +5,29 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "wdio run wdioconfig.ts"
+    "test": "wdio run wdioconfig.ts",
+    "test_jest": "jest"
   },
   "dependencies": {
+    "@types/jest": "^29.5.6",
     "@types/node": "^20.8.7",
+    "@types/supertest-as-promised": "^2.0.40",
     "@wdio/cli": "^8.20.2",
     "@wdio/cucumber-framework": "^8.20.0",
     "@wdio/local-runner": "^8.20.0",
     "assert": "^2.1.0",
     "chromedriver": "^118.0.1",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
     "typescript": "^5.2.2",
     "wdio-chromedriver-service": "^8.1.1",
     "wdio-wait-for": "^3.0.7",
     "webdriverio": "7.31.1"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.23.2",
     "@types/lodash": "^4.14.200",
+    "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1"
   },
   "resolutions": {

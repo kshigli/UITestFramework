@@ -1,4 +1,4 @@
-Feature: challenging DOM
+Feature: challenging DOM and Dynamic Loading
 
     Scenario: Confirm id changes when red button clicked
         Given User Navigate to the test URL

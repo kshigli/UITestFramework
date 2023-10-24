@@ -32,8 +32,8 @@ Then(/^confirm that the blue, red, and green button ids changes$/, {}, async () 
     /* capture button ids after red button click */
     let buttonIdsAfterClick = await challengingDOMPageObj.getIds();
 
-    console.log(buttonIdsBeforeClick);
-    console.log(buttonIdsAfterClick);
+    console.log("Ids before Red button click "+buttonIdsBeforeClick);
+    console.log("Ids after Red button click "+buttonIdsAfterClick);
 
     /* compare 2 arrays using loadash to confirm ids are different */
     assert(! isEqual(buttonIdsBeforeClick, buttonIdsAfterClick));
