@@ -28,6 +28,10 @@ export const config = {
         }
     ],
 
+    reporters: [        
+        ['spec', []],        
+    ],
+
     bail: 1,
     maxInstances: 1,
     maxInstancesPerCapability: 1,
